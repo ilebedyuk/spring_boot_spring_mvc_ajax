@@ -4,20 +4,67 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<%--<script type = "text/javascript" --%>
-         	<%--src = "http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>--%>
-        <%--<script src="/custom.js"></script> <!-- Custom codes -->--%>
+		<script src="/static/js/jquery.js"></script> <!-- jQuery -->
+		<script src="/static/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+		<script src="/static/js/jquery-ui.min.js"></script> <!-- jQuery UI -->
+		<script src="/static/js/jquery.dataTables.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="/static/css/jquery.dataTables.css">
+		<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+		<script src="static/races.js"></script> <!-- Custom codes -->
      </head>
 	<body>
 		<select name="raceSelect" id="raceSelect"></select>
-		<table cellpadding="0" cellspacing="0" border="0" id="property-overview" width="100%">
+		<br>
+		<br>
+		<br>
+		<table id="property-overview">
 			<thead>
 	            <tr>
-	                <th>#</th>
-	                <th>Name</th>
-	                <th>Rank</th>
+	                <th>id</th>
+	                <th>name</th>
+	                <th>rank</th>
 	            </tr>
 	        </thead>
+
+			<%--<tfoot>--%>
+			<%--<tr>--%>
+				<%--<th>id</th>--%>
+				<%--<th>name</th>--%>
+				<%--<th>rank</th>--%>
+			<%--</tr>--%>
+			<%--</tfoot>--%>
+			<tbody>
+			<%--<tr>--%>
+				<%--<td>1</td>--%>
+				<%--<td>test</td>--%>
+				<%--<td>test</td>--%>
+			<%--</tr>--%>
+			<%--<tr>--%>
+				<%--<td>1</td>--%>
+				<%--<td>test</td>--%>
+				<%--<td>test</td>--%>
+			<%--</tr>--%>
+			<%--<tr>--%>
+				<%--<td>1</td>--%>
+				<%--<td>test</td>--%>
+				<%--<td>test</td>--%>
+			<%--</tr>--%>
+			<%--<tr>--%>
+				<%--<td>1</td>--%>
+				<%--<td>test</td>--%>
+				<%--<td>test</td>--%>
+			<%--</tr>--%>
+			<%--<tr>--%>
+				<%--<td>1</td>--%>
+				<%--<td>test</td>--%>
+				<%--<td>test</td>--%>
+			<%--</tr>--%>
+			<%--<tr>--%>
+				<%--<td>1</td>--%>
+				<%--<td>test</td>--%>
+				<%--<td>test</td>--%>
+			<%--</tr>--%>
+			</tbody>
 		</table>
 	</body>
 </html>

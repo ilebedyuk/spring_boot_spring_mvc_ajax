@@ -33,6 +33,56 @@ public class ApplicationLoader implements ApplicationListener<ContextRefreshedEv
         footman.setRank("footman");
         humanRepository.save(footman);
 
+        Human footman1 = new Human();
+        footman1.setName("Petya1");
+        footman1.setRank("footman");
+        humanRepository.save(footman1);
+
+        Human footman2 = new Human();
+        footman2.setName("Petya2");
+        footman2.setRank("footman");
+        humanRepository.save(footman2);
+
+        Human footman3 = new Human();
+        footman3.setName("Petya3");
+        footman3.setRank("footman");
+        humanRepository.save(footman3);
+
+        Human footman4 = new Human();
+        footman4.setName("Petya4");
+        footman4.setRank("footman");
+        humanRepository.save(footman4);
+
+        Human footman5 = new Human();
+        footman5.setName("Petya5");
+        footman5.setRank("footman");
+        humanRepository.save(footman5);
+
+        Human footman6 = new Human();
+        footman6.setName("Petya6");
+        footman6.setRank("footman");
+        humanRepository.save(footman6);
+
+        Human footman7 = new Human();
+        footman7.setName("Petya7");
+        footman7.setRank("footman");
+        humanRepository.save(footman7);
+
+        Human footman8 = new Human();
+        footman8.setName("Petya8");
+        footman8.setRank("footman");
+        humanRepository.save(footman8);
+
+        Human footman9 = new Human();
+        footman9.setName("Petya9");
+        footman9.setRank("footman");
+        humanRepository.save(footman9);
+
+        Human footman10 = new Human();
+        footman10.setName("Petya10");
+        footman10.setRank("footman");
+        humanRepository.save(footman10);
+
         Orks orks1 = new Orks();
         orks1.setName("Ork1");
         orks1.setRank("fighter");

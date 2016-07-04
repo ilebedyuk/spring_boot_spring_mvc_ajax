@@ -21,7 +21,7 @@ public class OrksController {
     @Autowired
     private OrksService orksService;
 
-    @RequestMapping(value = "/orks", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/orks", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
     public List<Orks> findAll() {
         final List<Orks> resultList = new ArrayList<>();
         final Iterable<Orks> all = orksService.findAll();

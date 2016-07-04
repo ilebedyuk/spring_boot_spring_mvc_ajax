@@ -22,12 +22,7 @@ public class HumanController {
     @Autowired
     private HumanService humanService;
 
-    @RequestMapping(value = "/hello", method = RequestMethod.GET)
-    public String sayHello(){
-        return "Hello there !";
-    }
-
-    @RequestMapping(value = "/humans", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/humans", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
     public List<Human> findAll() {
         final List<Human> resultList = new ArrayList<>();
         final Iterable<Human> all = humanService.findAll();
