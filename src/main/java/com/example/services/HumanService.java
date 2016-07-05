@@ -34,4 +34,8 @@ public class HumanService {
     public Iterable<Human> findAll(){
         return humanRepository.findAll();
     }
+
+    public Iterable<Human> findByNameContains(String race){
+        return humanRepository.findByNameIgnoreCaseContaining(race);
+    }
 }
