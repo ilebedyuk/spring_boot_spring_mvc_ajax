@@ -8,6 +8,8 @@ $(document).ready(function() {
         });
 });
 
+//fffffffffffffffffffffffffffffffffffffffffffffff
+
 $(document).on('change', '#raceSelect', function() {
     var image_table = $('#property-overview').dataTable({
         columns: [
