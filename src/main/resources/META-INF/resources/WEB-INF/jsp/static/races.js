@@ -8,7 +8,7 @@ $(document).ready(function() {
         });
 });
 
-//fffffffffffffffffffffffffffffffffffffffffffffff
+//fff
 
 $(document).on('change', '#raceSelect', function() {
     var image_table = $('#property-overview').dataTable({
